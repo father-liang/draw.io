@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-07-16T16:11:49.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.1" etag="LkLb0iVlUwDZtosiU321" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-16T16:26:55.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qr2-lOsZ4q2WAH-1pzMb" version="21.6.1" type="github">
   <diagram name="第 1 页" id="WbZhvZjLadI3ZSp4eGpN">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-15" value="DataBase" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-16" value="调度器&lt;br&gt;（AdvertisingReviewScheduler&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-17" value="创建广告审核任务(AdvertisingReview&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-19" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.067;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vgZ_Vog9dja-eApK-i_m-17" target="vgZ_Vog9dja-eApK-i_m-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-20" value="write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" vertex="1" connectable="0" parent="vgZ_Vog9dja-eApK-i_m-19">
+          <mxGeometry x="-0.1309" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-22" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;exitX=0.95;exitY=0.213;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.043;entryY=0.264;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vgZ_Vog9dja-eApK-i_m-16" target="vgZ_Vog9dja-eApK-i_m-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="480" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-23" value="1.select" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" vertex="1" connectable="0" parent="vgZ_Vog9dja-eApK-i_m-22">
+          <mxGeometry x="-0.0242" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-24" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;exitX=1.008;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vgZ_Vog9dja-eApK-i_m-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.00000000000003" y="454" as="sourcePoint" />
+            <mxPoint x="499.04" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-25" value="2.result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" vertex="1" connectable="0" parent="vgZ_Vog9dja-eApK-i_m-24">
+          <mxGeometry x="-0.0554" y="8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-26" value="广告审核服务" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="420" y="640" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-27" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;exitX=0.781;exitY=0.982;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vgZ_Vog9dja-eApK-i_m-16" target="vgZ_Vog9dja-eApK-i_m-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-28" value="3.request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" vertex="1" connectable="0" parent="vgZ_Vog9dja-eApK-i_m-27">
+          <mxGeometry x="-0.0217" y="-3" relative="1" as="geometry">
+            <mxPoint x="48" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;entryX=0.592;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="690" as="sourcePoint" />
+            <mxPoint x="149.9999999999998" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-30" value="4.response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" vertex="1" connectable="0" parent="vgZ_Vog9dja-eApK-i_m-29">
+          <mxGeometry x="0.0206" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-32" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;entryX=-0.014;entryY=0.786;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.917;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vgZ_Vog9dja-eApK-i_m-16" target="vgZ_Vog9dja-eApK-i_m-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgZ_Vog9dja-eApK-i_m-33" value="5.write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" vertex="1" connectable="0" parent="vgZ_Vog9dja-eApK-i_m-32">
+          <mxGeometry x="0.1445" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
