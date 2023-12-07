@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T01:19:41.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BCO0J4tctNljvs-WwvzC" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T01:30:38.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="0LFnV2VIb_22ly0kgEcv" version="22.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2736" dy="2196" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1605" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -518,6 +518,38 @@
         </mxCell>
         <mxCell id="4xtakb7Dhtw7DXd2ALtF-291" value="&lt;b&gt;C3&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1030" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtakb7Dhtw7DXd2ALtF-292" value="功能业务目标" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;fontSize=16;rounded=1;shadow=0;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-120" y="-10" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtakb7Dhtw7DXd2ALtF-293" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="4xtakb7Dhtw7DXd2ALtF-292">
+          <mxGeometry y="30" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtakb7Dhtw7DXd2ALtF-294" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="4xtakb7Dhtw7DXd2ALtF-293">
+          <mxGeometry width="64" height="40" as="geometry">
+            <mxRectangle width="64" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4xtakb7Dhtw7DXd2ALtF-295" value="当挂检修牌时，防止检修人员触电" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="4xtakb7Dhtw7DXd2ALtF-293">
+          <mxGeometry x="64" width="226" height="40" as="geometry">
+            <mxRectangle width="226" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4xtakb7Dhtw7DXd2ALtF-296" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="4xtakb7Dhtw7DXd2ALtF-292">
+          <mxGeometry y="70" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4xtakb7Dhtw7DXd2ALtF-297" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="4xtakb7Dhtw7DXd2ALtF-296">
+          <mxGeometry width="64" height="70" as="geometry">
+            <mxRectangle width="64" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4xtakb7Dhtw7DXd2ALtF-298" value="分布式电源不足以支撑台区孤岛运行时，进行切断操作，避免不稳定供电" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="4xtakb7Dhtw7DXd2ALtF-296">
+          <mxGeometry x="64" width="226" height="70" as="geometry">
+            <mxRectangle width="226" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4xtakb7Dhtw7DXd2ALtF-302" value="&lt;b&gt;ps：总目标即是保证生产安全&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-102" y="126" width="265" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
